@@ -2,5 +2,11 @@
     "require": {
         "phpstan/phpstan": "^0.12.8",
         "phpstan/extension-installer": "^1.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "classmap-authoritative": true,
+        "discard-changes": true,
+        "preferred-install": "dist"
     }
 }
