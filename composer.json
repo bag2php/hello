@@ -28,5 +28,10 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "extra": {
+        "bamarni-bin": {
+            "target-directory": "tools"
+        }
     }
 }
