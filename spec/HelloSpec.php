@@ -7,8 +7,8 @@ use PhpSpec\ObjectBehavior;
 
 class HelloSpec extends ObjectBehavior
 {
-    function it_is_initializable()
+    function itはHelloを返す()
     {
-        $this->shouldHaveType(Hello::class);
+        $this->to('World')->shouldReturn('Hello, World!');
     }
 }
