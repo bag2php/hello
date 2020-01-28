@@ -11,5 +11,8 @@
             "name": "USAMI Kenta",
             "email": "tadsan@zonu.me"
         }
-    ]
+    ],
+    "require-dev": {
+        "phpspec/phpspec": "^6.1"
+    }
 }
