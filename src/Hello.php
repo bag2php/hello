@@ -4,8 +4,8 @@ namespace Bag2\Hello;
 
 class Hello
 {
-    public function to($argument1)
+    public function to(string $name): string
     {
-        return "Hello, World!";
+        return "Hello, {$name}!";
     }
 }

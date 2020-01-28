@@ -10,5 +10,6 @@ class HelloSpec extends ObjectBehavior
     function itはHelloを返す()
     {
         $this->to('World')->shouldReturn('Hello, World!');
+        $this->to('Miku')->shouldReturn('Hello, Miku!');
     }
 }
