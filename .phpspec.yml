@@ -1,0 +1,4 @@
+suites:
+    acme_suite:
+        namespace: Bag2\Hello
+        psr4_prefix: Bag2\Hello
