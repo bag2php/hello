@@ -6,6 +6,6 @@ final class Hello
 {
     public function to($name)
     {
-        return 'Hello, World!';
+        return "Hello, {$name}!";
     }
 }
