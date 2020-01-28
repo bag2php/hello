@@ -2,9 +2,6 @@
     "name": "bag2/hello",
     "description": "Hello, world package",
     "type": "library",
-    "require": {
-        "php": "^7.4"
-    },
     "license": "Apache-2.0",
     "authors": [
         {
@@ -12,6 +9,9 @@
             "email": "tadsan@zonu.me"
         }
     ],
+    "require": {
+        "php": "^7.4"
+    },
     "require-dev": {
         "phpunit/phpunit": "^8.5"
     },
